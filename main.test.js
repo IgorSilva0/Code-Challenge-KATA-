@@ -16,3 +16,7 @@ test("The output should be Phelps", () => {
 test("The output should be Frankie", () => {
   expect(nameDecoder("France", "ara1gbkaiabaab", "whoiste")).toBe("Frankie");
 });
+
+// To test your code make sure to use these commands on the console
+// npm install
+// npm test
